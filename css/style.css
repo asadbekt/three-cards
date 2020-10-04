@@ -36,6 +36,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .top {
@@ -238,6 +239,414 @@ body {
   margin-right: 12px;
 }
 
+.canteiner {
+  width: 1152px;
+  padding: 0px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.buy_cardlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.buy_carditem {
+  padding: 80px 40px 40px 40px;
+  background-color: #fff;
+  width: 344px;
+  border-radius: 16px;
+}
+
+.dollar {
+  margin-bottom: 17px;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #081F32;
+  margin: 0;
+}
+
+.dollar sub {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #A5ADBB;
+}
+
+.buy_carditem h2 {
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 25px;
+}
+
+.gold {
+  color: #F3B10E;
+
+}
+
+.top_paragrif {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #92969D;
+  margin-bottom: 40px;
+}
+
+.cards_hr {
+  height: 1.5px;
+  border: none;
+  background: #EBECED;
+  margin-bottom: 49px;
+}
+
+.in_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.in_item {
+  margin-bottom: 22px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6E798C;
+  display: flex;
+  align-items: center;
+}
+
+.in_item::before {
+  content: "";
+  background-image: url("/img/sariq.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-right: 12px;
+}
+
+.in_item:last-child {
+  margin-bottom: 92px;
+}
+
+.button_one {
+  padding: 12px 66px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  background: #EBECED;
+  border-radius: 8px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #798289;
+}
+
+.blue {
+  color: #1DABF2;
+}
+
+.blue_dow {
+  margin-bottom: 22px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6E798C;
+  display: flex;
+  align-items: center;
+}
+
+.blue_dow:last-child {
+  margin-bottom: 92px;
+}
+
+.blue_dow::before {
+  content: "";
+  background-image: url("/img/kok.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-right: 12px;
+
+}
+
+
+
+
+.button_two {
+  padding: 11px;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  color: #798289;
+  border: none;
+  border: 1.5px solid #EBECED;
+  border-radius: 8px;
+}
+
+.green {
+  color: #46D68C;
+}
+
+.in_green {
+  margin-bottom: 22px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6E798C;
+  display: flex;
+  align-items: center;
+}
+
+.in_green::before {
+  content: "";
+  background-image: url("/img/yashil.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-right: 12px;
+}
+
+.in_green:last-child {
+  margin-bottom: 92px;
+}
+
+.button_three {
+  background: #46D68C;
+  border-radius: 8px;
+  padding: 11px;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  color: white;
+}
+
+.canteiner button {
+  cursor: pointer;
+}
+
+.cantainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0px 20px;
+  margin-bottom: 100px;
+}
+
+.three_menyu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.three_item {
+  width: 360px;
+  border-radius: 16px;
+}
+
+.focus {
+  width: 360px;
+  border-radius: 16px;
+}
+
+.focusvalni {
+  width: 360px;
+  border-radius: 16px;
+}
+
+.three_item_text {
+  background-color: #fff;
+  padding: 32px 24px 30px 25px;
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -6px;
+  width: 360px;
+}
+
+.imkonyatlar img {
+  width: 24px;
+  height: 24px;
+  margin-left: 9px;
+}
+
+.three_item::before {
+  content: "";
+  background-image: url("/img/info.png"), url("/img/Pizza.png");
+  display: block;
+  background-size: 32px 32px, cover;
+  width: 360px;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-position: right 5px top 5px, center center;
+}
+
+.focus::before {
+  content: "";
+  background-image: url("/img/info.png"), url("/img/Tortellini.png");
+  display: block;
+  background-size: 32px 32px, cover;
+  width: 360px;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-position: right 5px top 5px, center center;
+}
+
+.focusvalni::before {
+  content: "";
+  background-image: url("/img/info.png"), url("/img/Strawberry.png");
+  display: block;
+  background-size: 32px 32px, cover;
+  width: 360px;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-position: right 5px top 5px, center center;
+}
+
+.three_item_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.three_item_top h2 {
+  margin: 0;
+  font-family: DM Serif Display;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  color: #081F32;
+}
+
+.imkonyatlar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.hisobot {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #6E798C;
+  margin-bottom: 20px;
+}
+
+.iqlim {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #A5ADBB;
+  display: flex;
+  margin-bottom: 33px;
+}
+
+.iqlim p {
+  margin: 0;
+  padding: 0;
+}
+
+.iqlim p+p {
+  margin-left: 43PX;
+}
+
+.iqlim p+p+p {
+  margin-left: auto;
+}
+
+.text_under {
+  display: flex;
+  align-items: center;
+}
+
+.p_one {
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 25px;
+  color: #081F32;
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration-line: line-through;
+  color: #F8593B;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.buyutma_berish {
+  margin-left: auto;
+  width: 114px;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background: #2ECC71;
+  border: 0px;
+  padding: 9px 0px;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -273,4 +682,33 @@ only screen and (min-resolution: 2dppx) {
     content: "";
     background-image: url("/img/komp@2x.png");
   }
-}
+
+  .in_item::before {
+    content: "";
+    background-image: url("/img/sariq.png");
+  }
+
+  .blue_dow::before {
+    content: "";
+    background-image: url("/img/kok@2x.png");
+  }
+
+  .in_green::before {
+    content: "";
+    background-image: url("/img/yashil.png");
+  }
+
+  .three_item::before {
+    content: "";
+    background-image: url("/img/info@2x.png"), url("/img/Pizza@2x.png");
+  }
+
+  .focus::before {
+    content: "";
+    background-image: url("/img/info@2x.png"), url("/img/Tortellini@2x.png");
+  }
+
+  .focusvalni::before {
+    content: "";
+    background-image: url("/img/info@2x.png"), url("/img/Strawberry@2x.png");}
+  }
